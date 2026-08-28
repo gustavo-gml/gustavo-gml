@@ -1,0 +1,29 @@
+name: Gerar Estatísticas do GitHub
+
+on:
+  # Roda todos os dias à meia-noite
+  schedule:
+    - cron: "0 0 * * *"
+  # Permite rodar manualmente no botão
+  workflow_dispatch:
+  # Atualiza sempre que fizer um commit neste repositório
+  push:
+    branches:
+      - main
+
+jobs:
+  github-metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Gerar imagem de estatísticas (SVG)
+        uses: lowlighter/metrics@latest
+        with:
+          # Salva a imagem gerada na raiz do repositório
+          filename: github-metrics.svg
+          # Usa o token automático do próprio repositório
+          token: ${{ secrets.GITHUB_TOKEN }}
+          # Define o que vai aparecer no card
+          base: header, repositories
+          config_timezone: America/Sao_Paulo
