@@ -17,9 +17,8 @@ Desenvolvedor, pesquisador e, nas horas vagas, músico e mestre de D&D, orquestr
 ![React](https://img.shields.io/badge/React-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Django](https://img.shields.io/badge/Django-%23092E20.svg?style=for-the-badge&logo=django&logoColor=white) ![Node.js](https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-%232496ED.svg?style=for-the-badge&logo=docker&logoColor=white)
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/gustavo-gml/gustavo-gml/main/github-metrics.svg" alt="Estatísticas do GitHub" />
+  <img src="https://streak-stats.demolab.com/?user=gustavo-gml&theme=transparent&hide_border=true&locale=pt_BR" alt="Estatísticas do GitHub" />
 </div>
-
 
 ### 🐍 Minhas Contribuições
 <picture>
